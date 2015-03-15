@@ -10,7 +10,7 @@ class Week3hw1
 		Scanner s = new Scanner(System.in);
 		String str;
 		int count = 0;
-		System.out.println("請輸入一行英文句子 : ");
+		System.out.println("Input a sentence : ");
 		str = s.nextLine();		
 		String[] temp = str.split(" |,|\\.|;|!|\\?");
 		for(String i : temp)
